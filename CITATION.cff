@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below and cite the external datasets separately."
+title: "FloodLink-PK: Pakistan Flood-Exposure and Emergency Road-Access Research Benchmark"
+version: 0.1.0
+date-released: 2026-11-09
+authors:
+  - family-names: Hussain
+    given-names: Muzammal
+    affiliation: Masmatix Innovations
+license: MIT
+keywords:
+  - Pakistan
+  - flood exposure
+  - road network accessibility
+  - emergency healthcare access
+  - remote sensing
+  - machine learning
+  - calibration
+abstract: >-
+  A dependency-free synthetic research benchmark and real-data protocol for
+  studying satellite-observed flood exposure on road links and the sensitivity
+  of emergency healthcare accessibility estimates in flood-affected Pakistan.
+  Version 0.1.0 contains synthetic experiments only and makes no empirical
+  performance claim about Pakistan.

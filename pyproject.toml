@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "floodlink-pk"
+version = "0.1.0"
+description = "Pakistan flood exposure and emergency road-access research benchmark"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Muzammal Hussain"}]
+keywords = ["Pakistan", "flood exposure", "road access", "remote sensing", "machine learning"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+floodlink-pk = "floodlink_pk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
