@@ -1,5 +1,7 @@
 # FloodLink-PK
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24229218.svg)](https://doi.org/10.5281/zenodo.24229218)
+
 **FloodLink-PK: A Pakistan Flood-Exposure and Emergency Road-Access Research Benchmark**  
 Version: `0.1.0` · Release date: `2026-11-09` · Python: `3.9+` · Runtime dependencies: none
 
@@ -85,4 +87,4 @@ The project code is released under the MIT License. External datasets retain the
 
 ## Citation
 
-Use the citation metadata in `CITATION.cff` after publishing a repository release. No DOI or publication is claimed for this software version. Cite the source datasets and studies separately as listed in `docs/SOURCES.md`.
+Cite this software with the metadata in `CITATION.cff` (DOI: [10.5281/zenodo.24229218](https://doi.org/10.5281/zenodo.24229218)). No peer-reviewed publication is claimed for this version. Cite the source datasets and studies separately as listed in `docs/SOURCES.md`.
